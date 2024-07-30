@@ -7,7 +7,7 @@ Scanner Scan=new Scanner(System.in);
 int numstd=Scan.nextInt();
 double[]grades=new double[numstd];
 for(int i=0; i<numstd; i++)
-  System.out.print("enter the grade for the student"+(i+1)+":+);
+  System.out.print("enter the grade for the student"+(i+1)+":");
 grades[i]=Scan.nextDouble();
 }
 double sum=0;
@@ -27,7 +27,7 @@ if(grade<lowest)
 double average=sum/numstd;
 System.out.println("average grade:"+average);
 System.out.println("highest grade:"+highest);
-System.ouyt.prinyln("lowest grade:+lowest);
+System.out.println("lowest grade:"+lowest);
 Scan.close();
 }
 }
